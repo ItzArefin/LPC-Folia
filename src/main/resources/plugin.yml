@@ -3,9 +3,10 @@ description: ${project.description}
 version: ${project.version}
 main: ${main.class}
 author: ${author}
-api-version: 1.13
-depend: [LuckPerms]
-softdepend: [PlaceholderAPI]
+api-version: 1.21
+folia-supported: true
+depend: [ LuckPerms ]
+softdepend: [ PlaceholderAPI ]
 commands:
   lpc:
     description: Reload the configuration.
